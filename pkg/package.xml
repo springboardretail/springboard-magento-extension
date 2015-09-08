@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>SpringboardRetailIntegration</name>
+    <version>0.0.1</version>
+    <stability>devel</stability>
+    <license uri="https://raw.githubusercontent.com/springboardretail/springboard-client-ruby/master/LICENSE">MIT</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Extend Magento API to integrate to Springboard Retail</summary>
+    <description>This extension improves default features of Magento API allowing it to integrate to Springboard Retail</description>
+    <notes>Initial packaging</notes>
+    <authors><author><name>Springboard Retail</name><user>SpringboardR</user><email>dyego@springboardretail.com</email></author></authors>
+    <date>2015-09-08</date>
+    <time>21:17:39</time>
+    <contents><target name="magecommunity"><dir name="SpringboardRetail"><dir name="Api"><dir name="Block"><dir name="Adminhtml"><dir name="System"><dir name="Config"><dir name="Fieldset"><file name="Hint.php" hash="ea3d16dbe5b6efa61817062258563e6f"/></dir></dir></dir></dir></dir><dir name="Helper"><dir name="Catalog"><file name="Product.php" hash="36e7363089d41c3d3d702fe7000e173a"/></dir><file name="Data.php" hash="9d8b67bec1219b55f45222f9804179b0"/></dir><dir name="Model"><dir name="Catalog"><dir name="Product"><dir name="Api"><file name="V2.php" hash="e255f6a379c77179e2960431cf59196a"/></dir><file name="Api.php" hash="bac86e914d1e3d4a4ddd6d9690f26c95"/></dir></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="80f47035706505bd2aad2c1a6d996f18"/><file name="config.xml" hash="b725902928a68e725592d00aaa8dae16"/><file name="system.xml" hash="4447cbf0c8fafb24ef8ac9cab53db219"/><file name="wsdl.xml" hash="9690b6ee8bba1a563e5eb4c427798c10"/><file name="wsi.xml" hash="f06f9b1374aac0f2585d3fc1c916d7ec"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="SpringboardRetail_Api.xml" hash="6b64f7f84c8f21ff4211b04c14f7d71c"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.4.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
