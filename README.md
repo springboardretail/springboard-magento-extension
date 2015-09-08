@@ -1,7 +1,7 @@
 # Springboard Retail Magento Extension
 
 This extension improves default features of Magento API allowing it
-to integrate to [Springboard Retail](https://springboardretail.com).
+to integrate to [Springboard Retail](http://springboardretail.com).
 
 ## Features
 
